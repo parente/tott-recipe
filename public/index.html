@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Recipes Demo</title>
+    <!-- <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />-->
+    <link href="css/recipe.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>Recipes Demo</h1>
+      <p class="lead">Use Bootstrap LESS mixins to create semantic classes.</p>
+
+      <!-- without semantic classes -->
+      <h4>With Regular Bootstrap Classes</h4>
+      <section class="row">
+        <div class="col-sm-4">Basil</div>
+        <div class="col-sm-2">1/2 cup</div>
+      </section>
+      <section class="row">
+        <div class="col-sm-4">Celery</div>
+        <div class="col-sm-2">1 cup</div>
+      </section>
+      <section class="row">
+        <div class="col-sm-4">Tomato paste</div>
+        <div class="col-sm-2">1 can</div>
+      </section>
+
+      <hr />
+
+      <!-- with semantic classes -->
+      <h4>With Semantic Classes</h4>
+      <section class="ingredient">
+        <div class="ingredient-name">Basil</div>
+        <div class="ingredient-amount">1/2 cup</div>
+      </section>
+      <section class="ingredient">
+        <div class="ingredient-name">Celery</div>
+        <div class="ingredient-amount">1 cup</div>
+      </section>
+      <section class="ingredient">
+        <div class="ingredient-name">Tomato paste</div>
+        <div class="ingredient-amount">1 can</div>
+      </section>
+
+    </div>
+  </body>
+</html>
