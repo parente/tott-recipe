@@ -3,11 +3,9 @@
   "version": "0.0.1",
   "description": "TotT semantic Bootstrap demo",
   "main": "index.js",
-  "dependencies": {
-    "grunt-contrib-less": "~0.10.0",
-    "grunt": "~0.4.3"
-  },
   "devDependencies": {
+    "grunt-contrib-less": "~0.10.0",
+    "grunt": "~0.4.3",
     "grunt-nodestatic": "~0.1.2",
     "grunt-contrib-watch": "~0.5.3"
   },
